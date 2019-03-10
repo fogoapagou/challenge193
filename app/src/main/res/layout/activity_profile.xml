@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom = "16dp"
+                android:paddingTop = "16dp"
+                android:background="#ffffff"
+                tools:context="com.example.test_design.Main2Activity">
+
+    <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome"
+            android:textAppearance = "@style/game"
+            android:textAllCaps="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart ="40dp"
+            android:layout_marginTop = "75dp"
+
+    />
+
+    <TextView
+            android:id="@+id/prof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prof"
+            android:textAppearance = "@style/game2"
+            android:textAllCaps="true"
+            android:layout_below="@+id/nome"
+            android:layout_marginStart ="40dp"
+            android:layout_marginLeft="40dp"
+
+    />
+    <TextView
+            android:id="@+id/game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game"
+            android:textAppearance = "@style/game2"
+            android:textAllCaps="true"
+            android:layout_below="@+id/prof"
+            android:layout_marginStart ="40dp"
+            android:layout_marginLeft="40dp"
+
+    />
+    <ImageView
+            android:id="@+id/pic"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src = "@drawable/pic1"
+            android:layout_below="@+id/game"
+            android:layout_marginStart ="40dp"
+            android:layout_marginLeft="40dp"
+    />
+
+    <ImageView
+            android:id="@+id/star"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:src = "@drawable/stars1"
+            android:layout_below="@+id/pic"
+            android:layout_marginStart ="40dp"
+            android:layout_marginLeft="40dp"
+    />
+
+    <TextView
+            android:id="@+id/tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tx"
+            android:textAppearance = "@style/game2"
+            android:textAllCaps="true"
+            android:layout_alignLeft="@+id/star"
+            android:layout_alignStart="@+id/star"
+            android:layout_below="@+id/star"
+
+    />
+
+    <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tx2"
+            android:textAppearance = "@style/game2"
+            android:layout_alignLeft="@+id/tx"
+            android:layout_alignStart="@+id/tx"
+            android:layout_below="@+id/tx"
+
+    />
+    <Button
+            android:text="Chamado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/btnSimulation"/>
+
+</RelativeLayout>

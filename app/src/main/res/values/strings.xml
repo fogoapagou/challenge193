@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Challenge193</string>
+    <string-array name="professions">
+        <item>Médico(a)</item>
+        <item>Enfermeiro(a)</item>
+        <item>Socorrista</item>
+        <item>Borracheiro</item>
+        <item>Outros...</item>
+    </string-array>
+    <string name="title_activity_call">Map</string>
+    <string name="senha">senha</string>
+    <string name="CPF">CPF</string>
+    <string name="login">login</string>
+    <string name="membro">tornar se voluntário</string>
+    <string name="bemvindo">Seja um voluntário</string>
+    <string name="nome">Pâmela Gonçalaves Pereira</string>
+    <string name="prof"> médica </string>
+    <string name="game">Voluntária especialista </string>
+    <string name="tx">Voluntária desde 2019 </string>
+    <string name="tx2"> Região em que mais atuou: Campinas </string>
+
+</resources>

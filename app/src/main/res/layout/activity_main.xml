@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent"
+             android:layout_width="match_parent">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
+                android:background="#ffffff"
+        >
+
+            <ImageView
+                    android:id="@+id/bom"
+                    android:contentDescription="image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignRight="@+id/btnRegister"
+                    android:src="@drawable/firefighter2"
+            />
+
+
+            <EditText
+                    android:id="@+id/txtCpf"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="320dp"
+                    android:hint="@string/CPF"
+                    android:digits="012345"
+                    android:maxLength="11"
+                    android:inputType="number"
+                    android:layout_alignParentStart="true"
+                    android:background="#ffffff"
+            />
+
+
+            <EditText
+                    android:id="@+id/txtPassword"
+                    android:hint="@string/senha"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/txtCpf"
+                    android:inputType="textPassword"
+                    android:background="#ffffff"
+
+            />
+
+            <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="125dp"
+                    android:layout_height="75dp"
+                    android:text="@string/login"
+                    android:layout_marginTop="400dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="35dp"
+                    android:background="@android:color/holo_red_dark"
+                    android:textColor="@android:color/white"
+
+            />
+
+            <Button
+
+                    android:id="@+id/btnRegister"
+                    android:layout_width="125dp"
+                    android:layout_height="75dp"
+                    android:text="@string/membro"
+                    android:layout_marginTop="400dp"
+                    android:layout_toRightOf="@+id/btnLogin"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textColor="@android:color/white"
+
+            />
+
+            <TextView
+                    android:id="@+id/bemvindo"
+                    android:layout_width="220dp"
+                    android:layout_height="150dp"
+                    android:text="@string/bemvindo"
+                    android:layout_marginTop="150dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="35dp"
+                    android:textAppearance="@style/your_art_mu"
+                    android:textAllCaps="true"
+
+            />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
